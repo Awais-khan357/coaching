@@ -1,0 +1,21 @@
+.teams-sidebar {
+    max-height: 500px; /* Fix height for sidebar */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ddd; /* Optional: border for styling */
+    border-radius: 4px; /* Optional: round edges */
+  }
+  
+  /* Scrollbar styling */
+  .teams-sidebar::-webkit-scrollbar {
+    width: 5px; /* Adjust width of the scrollbar */
+  }
+  
+  .teams-sidebar::-webkit-scrollbar-thumb {
+    background: #ccc; /* Thumb color */
+    border-radius: 10px; /* Rounded corners for thumb */
+  }
+  
+  .teams-sidebar::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Track color */
+  }
+  
